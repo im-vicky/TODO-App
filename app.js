@@ -23,10 +23,13 @@ app.use(express.static("public"));
 // =================================================================================================
 // Database setup
 
-mongoose.connect(process.env.HOST, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  "mongodb+srv://vicky:@Qwerty1@@cluster0-rldch.mongodb.net/todolistDB",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 const itemSchema = {
   name: String,
 };
