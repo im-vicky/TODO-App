@@ -19,5 +19,10 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.0"
   }
 }
